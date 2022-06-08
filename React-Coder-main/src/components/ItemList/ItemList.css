@@ -1,0 +1,15 @@
+.ulProducts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 25%;
+    list-style: none;
+    margin: auto 20px;
+}
+
+

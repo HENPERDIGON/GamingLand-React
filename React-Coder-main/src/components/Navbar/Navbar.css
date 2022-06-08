@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background: linear-gradient(to bottom, rgb(179, 179, 179), rgb(54, 54, 54));
+}
+
+.titleNav{
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+    margin: 5px;
+    filter: drop-shadow( -1px  2px 1px rgba(195, 0, 255, 0.623));
+}
+.containerCartBtn{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.ActivebtnNav{
+    background: linear-gradient(to bottom right, rgb(95, 0, 90), rgb(225, 1, 255));
+    padding: 10px 50px; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin: auto;
+    
+}
+.btnNav{
+    background: linear-gradient(to top right, rgb(44, 0, 42), rgb(113, 0, 128));
+    padding: 10px 50px; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin: auto;
+}
+
+
+img{
+    margin: 10px;
+}

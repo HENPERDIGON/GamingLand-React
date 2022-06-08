@@ -1,0 +1,41 @@
+.contCount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.contBtnCount{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin-bottom: 5px;
+}
+.btn{
+    width: 40px;
+    border: hidden;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+.countP{
+    display: block;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    
+    color: rgb(148, 148, 148);
+}
+.btnAdd{
+    width: 40%;
+    border: hidden;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    background-color: black;
+    color: white;
+}

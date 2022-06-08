@@ -1,0 +1,21 @@
+.cartWidget{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    padding: 0px 10px;
+    margin: auto;
+}
+.cartWidgetP{
+    margin: auto;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cartWidgetImg{
+    margin: auto;
+    width: 100%;
+    
+}
